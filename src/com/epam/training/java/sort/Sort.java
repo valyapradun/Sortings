@@ -81,9 +81,9 @@ public class Sort {
 				j--;
 			}
 			if (i <= j) {
-				int temp = array[i];
+				int tmp = array[i];
 				array[i] = array[j];
-				array[j] = temp;
+				array[j] = tmp;
 				i++;
 				j--;
 			}
